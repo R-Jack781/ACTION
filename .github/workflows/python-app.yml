@@ -24,7 +24,3 @@ jobs:
     - name: Run tests
       run: |
         python -m unittest discover -s tests
-    - name: Display test results
-      run: |
-        cat unittest.xml
-      if: always()
